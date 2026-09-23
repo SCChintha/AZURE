@@ -1,0 +1,6 @@
+Azure Blob Storage Immutability for Audit Records
+==========================================================================
+
+PROJECT ABSTRACT
+
+This topic focuses on the use of locked immutability policies to protect important records from modification or deletion for a specified period. These policies are especially useful for keeping financial records unmodifiable for seven years and satisfying external audit and regulatory requirements. Once a locked policy is enabled, its retention period cannot be reduced, which provides strong protection against accidental or intentional changes. Students and administrators may face bottlenecks such as understanding the permanent nature of locked policies and choosing between a legal hold and a time-based retention policy. Selecting the wrong policy can lead to unnecessary data retention or compliance issues. Therefore, proper planning and understanding of immutability policies are essential for maintaining data integrity, security, compliance, and reliable long-term record management.

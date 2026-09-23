@@ -1,0 +1,18 @@
+TASK 3:
+Existing Resource Group
+        │
+        │
+        ├── disk-lab-01
+        │
+        └── az104 storage account
+                │
+                │ Move
+                ↓
+        New Resource Group
+        rg-task3-move
+                │
+                └── az104 storage account
+                        │
+                        │ Resource Lock
+                        ↓
+                   Cannot Delete

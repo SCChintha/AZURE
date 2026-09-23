@@ -1,0 +1,51 @@
+Here is a ready-to-paste prompt that will make ChatGPT / Meta AI give you a perfect project report, architecture, and code.
+
+### 1. COPY THIS PROMPT TO CHATGPT
+
+> *Prompt for ChatGPT:*
+> 
+> Act as an Azure Cloud Architect and my university project mentor.
+> 
+> *Project Title:* Azure Blob Storage Immutability for Audit Records
+> 
+> *Project Goal:* Design and implement a secure, compliant storage solution on Azure Blob Storage where financial audit records are made unmodifiable (WORM - Write Once Read Many) for 7 years to satisfy external audit and regulatory requirements.
+> 
+> *Explain the project in detail covering:*
+> 1.  *Executive Summary:* Why immutability is needed for financial records.
+> 2.  *Core Concepts in simple terms:* What is WORM storage, Time-based Retention Policy vs Legal Hold, Locked vs Unlocked Policy.
+> 3.  *Architecture:* Storage Account > Container > Immutable Blobs. Show the flow of how a record is uploaded and locked.
+> 4.  *Implementation Plan (Azure Portal + Azure CLI):* Step-by-step commands to create a Storage Account, enable versioning, enable Blob-level immutability, create a time-based retention policy for 7 years (2555 days), and show how to apply a Legal Hold.
+> 5.  *Bottlenecks and Solutions:* Specifically address these two problems my professor mentioned:
+>     a) "Locked immutability policies cannot be reduced" - What happens if we lock it wrong? How to avoid it using Unlocked policy for testing.
+>     b) "Legal hold vs time-based policy is chosen wrongly" - When to use which? Give a decision table.
+> 6.  *Best Practices & Cost Considerations*
+> 7.  *A final Conclusion and 5 Viva questions with answers.*
+> 
+> Keep the language professional but easy to understand for a final-year student. Include Azure CLI code snippets and screenshots placeholders.
+
+---
+
+### 2. PROFESSIONAL DESCRIPTION OF YOUR PROJECT [You can use this in your report / PPT]
+
+*Azure Blob Storage Immutability for Audit Records*
+
+In regulated industries like finance and healthcare, audit records must be preserved in their original state and protected from modification or deletion, even by an administrator. This is a compliance requirement for standards like SEC 17a-4, SOX, etc.
+
+This project implements *WORM (Write Once, Read Many)* storage using *Azure Blob Storage Immutable Storage*.
+
+We create an immutable storage layer where once a financial document (e.g., invoice, ledger, transaction log) is uploaded, it cannot be altered or deleted for 7 years.
+
+*Key Technologies Used:*
+- *Time-based Retention Policy:* Automatically protects the blob for a fixed duration (e.g., 7 years / 2555 days). Once Locked, this duration can ONLY be extended, never reduced. This is ideal for regulatory compliance.
+- *Legal Hold:* An indefinite hold that protects blobs until the hold is explicitly cleared. Ideal for ongoing litigation or investigation.
+- *Policy States:* Unlocked (for testing, can be modified) vs Locked (for production, irreversible).
+
+*Use Cases Solved:*
+1.  Making financial records unmodifiable for 7 years.
+2.  Satisfying external auditors by proving data integrity.
+
+*The Core Learning of this Project is Governance:* Understanding that a Locked policy is irreversible, so choosing between Legal Hold and Time-Based retention is a critical architectural decision that cannot be undone easily.
+
+---
+
+Want me to now generate the full project report, PPT points, and CLI commands using that prompt?
