@@ -1,0 +1,12 @@
+Dear Students,
+
+All students are instructed to update their project Git repository with the following:
+
+1. Project Abstract
+2. Project Architecture Diagram
+3. List of Services/Technologies Required to complete the project
+4. Task 1 to Task 5: Upload the executed screenshots and  relevant documentation for each completed task.
+
+Please ensure that all the required files, screenshots, and documentation are properly organized and uploaded to your Git repository.
+
+Kindly complete the updates without fail and ensure that the repository is up to date.

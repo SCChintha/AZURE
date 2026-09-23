@@ -1,0 +1,28 @@
+24CC3046-PO23
+TEAM 227
+======================================================================
+Azure Blob Storage Immutability for Audit Records
+3 teams · T023, T125, T227 · 12 students(SAME)
+======================================================================
+Use cases :
+
+Make financial records unmodifiable for seven years
+Satisfy an external audit requirement
+Bottlenecks students may encounter
+
+Locked immutability policies cannot be reduced
+Legal hold versus time-based policy is chosen wrongly
+=======================================================================
+TeamMates: 
+2400030039	ChinthaSaiCharan	PO23	
+2400030618	
+2400030539
+=======================================================================
+Proposal and design review	8%
+MidTerm Progress review	10%
+Final working demonstration	14%
+Documentation and use cae mapping	5%
+Individual viva	3%
+--Total 40%
+=======================================================================
+https://pbl2030.vercel.app/
