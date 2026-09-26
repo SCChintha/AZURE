@@ -5,3 +5,24 @@ git commit -m "completed upto task 5 "
 git branch -M main
 git remote add origin https://github.com/SCChintha/AZURE.git
 git push -u origin main
+
+=======================================
+Run this single command in your terminal to force GitHub to match your local folder exactly:
+
+Bash
+git push -u origin main --force
+What to do if it still doesn't update:
+Run these commands in order:
+
+Bash
+# 1. Untrack everything from Git cache
+git rm -r --cached .
+
+# 2. Re-stage strictly what exists in your local folder right now
+git add .
+
+# 3. Commit the clean state
+git commit -m "Sync repository to exact local folder contents"
+
+# 4. Push and force replace GitHub's state
+git push -u origin main --force
