@@ -1,7 +1,7 @@
-echo "# AZURE" >> README.md
+==PUSH TO GITHUB==
 git init
 git add README.md
-git commit -m "completed upto task 4 "
+git commit -m "completed upto task 5 "
 git branch -M main
 git remote add origin https://github.com/SCChintha/AZURE.git
 git push -u origin main

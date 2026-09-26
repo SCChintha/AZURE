@@ -1,4 +1,5 @@
-24CC3046-PO23
+24CC3046 - MICROSOFT CERTIFIED: AZURE ADMINISTRATOR ASSOCIATE
+PO23
 TEAM 227
 ======================================================================
 Azure Blob Storage Immutability for Audit Records
@@ -14,15 +15,17 @@ Locked immutability policies cannot be reduced
 Legal hold versus time-based policy is chosen wrongly
 =======================================================================
 TeamMates: 
-2400030039	ChinthaSaiCharan	PO23	
-2400030618	
-2400030539
+2400030039	C Sai Charan
+2400030618	G Kowshik Srinivas
+2400030539	P J Aravind Kumar
+2400032216	K Ram Praveen Reddy	
 =======================================================================
-Proposal and design review	8%
-MidTerm Progress review	10%
-Final working demonstration	14%
+Proposal and design review		8%
+MidTerm Progress review			10%
+Final working demonstration		14%
 Documentation and use cae mapping	5%
-Individual viva	3%
---Total 40%
+Individual viva				3%
+				   -------------
+--Total 				40%
 =======================================================================
 https://pbl2030.vercel.app/
